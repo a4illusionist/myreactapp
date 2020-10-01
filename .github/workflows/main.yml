@@ -40,4 +40,4 @@ jobs:
       
      # Runs a set of commands using the runners shell
       - name: Configuring Surge with SSH keys
-        run: surge ./build http://b20reactapp.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build/ http://b20reactapp.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
